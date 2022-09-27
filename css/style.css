@@ -1,0 +1,94 @@
+/* 
+Root
+    --backgrndCol: #C69C72;
+    --primFntCol: #A2D6F9;
+    --secFntCol: #352D39;
+    --primFont: font-family: 'Zen Antique Soft', serif;
+    --secFont: font-family: 'Zen Maru Gothic', sans-serif;
+    --tertFont: font-family: 'Zen Kaku Gothic New', sans-serif;
+    --quatFont: font-family: 'Zen Dots', cursive;
+*/
+
+:root {
+    --bckgrndClr: #C69C72;
+    --primFntCol: #A2D6F9;
+    --secFntCol: #550C18;
+    --primFont: 'Zen Antique Soft', serif;
+    --secFont: 'Zen Maru Gothic', sans-serif;
+    --tertFont: 'Zen Kaku Gothic New', sans-serif;
+    --quatFont: 'Zen Dots', cursive;
+
+}
+
+
+/* Header  */
+
+.navbar {
+  color: var(--secFntCol);
+}
+
+p {
+    font-family: var(--secFont);
+    font-size: 20px;
+    margin: 7.35px 0px;
+    padding-left: 20px;
+}
+
+body {
+    background-color: var(--bckgrndClr);
+}
+
+h1 {
+    color: var(--primFntCol);
+    font-family: var(--secFont);
+    font-size: 35px;
+}
+
+h1 a {
+    color: var(--primFntCol);
+    font-family: var(--primFont);
+}
+
+.nav-item a {
+    color: var(--secFntCol);
+    font-family: var(--secFont);
+    font-size: 20px;
+    /* margin-top: px; */
+    padding-left: 25px;
+}
+
+
+
+
+/* Main */
+
+h2 {
+    color: var(--primFntCol);
+    font-family: var(--primFont);
+    font-size: 105px;
+    margin-top: 105px;
+}
+
+/* Footer */
+
+.blurb {
+    color: var(--secFntCol);
+    font-family: var(--tertFont);
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 175px;
+    padding-left: 35px;
+}
+
+.circa {
+    color: var(--secFntCol);
+    font-family: var(--quatFont);
+    font-size: 24px;
+    text-align: right;
+    padding-top: 215px;
+    padding-right: 30px;
+}
+
+button {
+    border-radius: 50%;
+}
